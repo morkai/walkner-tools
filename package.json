@@ -1,0 +1,25 @@
+{
+  "name": "walkner-tools",
+  "version": "0.0.1",
+  "description": "Tools for aiding in building custom devices based on Lantronix XPort Pro and Jennic Wireless Microcontrollers.",
+  "keywords": ["walkner", "tools", "build", "lantronix", "xport", "jennic"],
+  "license": "MIT",
+  "homepage": "https://github.com/morkai/walkner-tools",
+  "author": {
+    "name": "Łukasz Walukiewicz",
+    "email": "lukasz@walukiewicz.eu",
+    "url": "http://lukasz.walukiewicz.eu/"
+  },
+  "bugs": "https://github.com/morkai/walkner-tools/issues",
+  "repository": {
+    "type": "git",
+    "url":  "http://github.com/morkai/walkner-tools.git"
+  },
+  "engine": ["node >=0.8"],
+  "main": "./lib/index",
+  "dependencies": {
+    "ftp": "0.2.x",
+    "optimist": "0.3.x",
+    "step": "0.0.5"
+  }
+}
