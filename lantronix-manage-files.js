@@ -142,13 +142,13 @@ function main()
 
   console.log("Parsing input data...");
 
-  if (typeof argv.file === 'string')
+  if (typeof argv.op === 'string')
   {
-    stdinData += '\n' + argv.file;
+    stdinData += '\n' + argv.op;
   }
-  else if (Array.isArray(argv.file))
+  else if (Array.isArray(argv.op))
   {
-    stdinData += '\n' + argv.file.join('\n');
+    stdinData += '\n' + argv.op.join('\n');
   }
 
   var ops;
