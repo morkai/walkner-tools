@@ -20,7 +20,7 @@ var USAGE = [
   "   will be pinged until it responds or up to the specified number of seconds.",
   "",
   "NOTE: The burner utility directory must contain a jennic-burner.sh file,",
-  "      which should burn a Jennic image file specified as the first argument" +
+  "      which should burn a Jennic image file specified as the first argument",
   "      and then exit.",
   "",
   "Usage: jennic-burn-image.js [options] host"
