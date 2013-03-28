@@ -59,6 +59,7 @@ burnJennicImage({
   pass: argv.pass,
   pipe: true,
   kill: argv.kill,
+  burner: argv.burner,
   image: argv.image,
   reboot: reboot
 }, function(err)
