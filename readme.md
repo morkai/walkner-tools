@@ -81,5 +81,6 @@ node walkner-tools/lantronix-burn-image.js
 
 ## License
 
-This project is released under the
-[MIT License](https://raw.github.com/morkai/walkner-tools/master/license.md).
+walkner-tools is released under the [MIT License](https://github.com/morkai/walkner-tools/blob/master/license.md).
+
+Copyright (c) 2014, Łukasz Walukiewicz (lukasz@walukiewicz.eu).
